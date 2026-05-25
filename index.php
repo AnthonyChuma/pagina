@@ -36,7 +36,7 @@
 
             <div class="help-links">
                 <a href="#">Preguntas frecuentes</a>
-                <a href="#">Consejos de seguridad</a>
+                <a href="#">Consejos de seguridad revicion tercerparcial</a>
             </div>
         </section>
     </main>
