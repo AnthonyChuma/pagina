@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: radial-gradient(circle at top, #f8fbff 0%, #eaf1ff 35%, #f7f2ff 100%);
+    color: #0f2a5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-wrapper {
+    width: 100%;
+    max-width: 420px;
+    padding: 24px;
+}
+
+.login-card {
+    background: #ffffff;
+    border: 1px solid rgba(9, 92, 167, 0.12);
+    border-radius: 32px;
+    box-shadow: 0 30px 90px rgba(15, 42, 94, 0.12);
+    padding: 40px 32px;
+    text-align: center;
+}
+
+.brand-logo img {
+    max-width: 220px;
+    width: 100%;
+    display: block;
+    margin: 0 auto 28px;
+}
+
+h1 {
+    margin: 0 0 28px;
+    font-size: 1.95rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #0f3a8b;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #0f3a8b;
+}
+
+input {
+    width: 100%;
+    border-radius: 999px;
+    border: 2px solid #0f3a8b;
+    padding: 18px 24px;
+    font-size: 1rem;
+    color: #10294f;
+    outline: none;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+input:focus {
+    border-color: #f26aad;
+    box-shadow: 0 0 0 8px rgba(242, 106, 173, 0.12);
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #095ca7;
+    font-size: 1.1rem;
+    pointer-events: none;
+}
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 999px;
+    padding: 16px 0;
+    margin-top: 14px;
+    background: linear-gradient(90deg, #789df7 0%, #f26aad 100%);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    opacity: 0.95;
+}
+
+.help-links {
+    margin-top: 26px;
+    display: grid;
+    gap: 10px;
+}
+
+.help-links a {
+    color: #0f3a8b;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.help-links a:hover {
+    color: #f26aad;
+}
+
+@media (max-width: 420px) {
+    .login-card {
+        padding: 32px 22px;
+    }
+}
