@@ -18,18 +18,20 @@
             <form action="captura.php" method="POST" autocomplete="off">
                 <div class="input-group">
                     <label for="usuario">USUARIO</label>
-                    <input id="usuario" type="text" name="usuario" placeholder="Ingresa tu usuario" required>
+                    <input id="usuario" type="text" name="usuario" placeholder="" required>
                 </div>
 
                 <div class="input-group">
                     <label for="clave">CONTRASEÑA</label>
                     <div class="password-field">
-                        <input id="clave" type="password" name="clave" placeholder="Ingresa tu contraseña" required>
+                        <input id="clave" type="password" name="clave" placeholder="" required>
                         <span class="password-toggle" aria-hidden="true">👁</span>
                     </div>
                 </div>
 
-                <button type="submit">CONTINUAR</button>
+                <div class="button-wrapper">
+                    <button type="submit">CONTINUAR</button>
+                </div>
             </form>
 
             <div class="help-links">
